@@ -1,0 +1,23 @@
+@mixin base-icon {
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+}
+
+.icon-add {
+  content: url('../image/icon/add.svg');
+  @include base-icon;
+}
+
+.icon-sub {
+  content: url('../image/icon/sub.svg');
+  @include base-icon;
+}
+
+.icon-cart {
+  content: url('../image/icon/cart.svg');
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+.shop-cart-detail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.detail-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+  max-height: 300px;
+  background-color: white;
+  overflow: auto;
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    .name {
+      flex: 1;
+    }
+  }
+}

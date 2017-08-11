@@ -1,0 +1,29 @@
+.slide-bottom-leave-active {
+  transition: transform .3s ease;
+  transform: translate(0, 100%);
+}
+
+.slide-bottom-enter-active {
+  transition: transform .3s ease;
+  transform: translate(0, 0);
+}
+
+.slide-bottom-enter, .slide-bottom-leave-active {
+  transform: translate(0, 100%);
+}
+
+//
+
+.slide-right-leave-active {
+  transition: transform .3s ease;
+  transform: translate(100%, 0);
+}
+
+.slide-right-enter-active {
+  transition: transform .3s ease;
+  transform: translate(0, 0);
+}
+
+.slide-right-enter, .slide-right-leave-active {
+  transform: translate(100%, 0);
+}
