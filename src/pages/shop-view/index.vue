@@ -19,12 +19,15 @@
       return {
         goodsIns,
         countName: goodsIns.countName,
-        goodsList: goodsIns.loadData(),
+        goodsList: [],
         shopCart: []
       }
     },
     components: {},
     created () {
+      this.goodsIns.loadData().then(data => {
+        this.goodsList = data
+      })
     },
     mounted () {
     },
