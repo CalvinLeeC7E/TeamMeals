@@ -4,7 +4,7 @@ function Goods () {
   let countName = 'countValue'
 
   function loadData () {
-    return axios.get('http://localhost:3000/api/shop_list').then(res => {
+    return axios.get('http://calvinapi101.duapp.com').then(res => {
       return res.data
     })
   }
